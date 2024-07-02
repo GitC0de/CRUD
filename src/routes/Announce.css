@@ -1,0 +1,77 @@
+.announceHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+}
+
+.create {
+    background-color: rgb(194, 12, 12);
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+
+.create:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+
+.boardSearchPlace {
+    position: relative;
+    width: 76%;
+}
+
+.boardSearch {
+    width: 100%;
+    height: 20px;
+    border: 2px solid;
+    border-color: rgb(194, 12, 12);
+    border-radius: 5px;
+}
+
+.boardSearch:focus {
+    outline: none;
+}
+
+.boardSearchIcon {
+    position: absolute;
+    height: 15px;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(194, 12, 12);
+}
+
+
+.boardSearchIcon:hover {
+    cursor: pointer;
+}
+
+.board {
+    width: 76%;
+}
+
+.boardHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(194, 12, 12);
+    color: white;
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.announcement{
+    border-bottom: 2px solid;
+    border-color: rgb(194, 12, 12);
+    height: 25px; 
+}
+
+.indexChanger {
+    margin-left: 450px;
+}
+

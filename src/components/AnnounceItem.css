@@ -1,0 +1,8 @@
+.announcement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.announcement:hover {
+    cursor: pointer;
+}

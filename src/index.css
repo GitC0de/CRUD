@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: 
+    "header header header header"
+    "a main main main"
+    ". . . ."
+    "footer footer footer footer";
+}
+
+.header { 
+  grid-area: header;
+  margin-bottom: 50px;
+}
+.sidebar { 
+  grid-area: a;
+}
+.contents { 
+  grid-area: main;
+}
+.footer { 
+  grid-area: footer;
+  margin-top: 100px;
 }

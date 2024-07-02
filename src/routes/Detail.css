@@ -1,0 +1,46 @@
+.title {
+    height: 60px;
+    width: 75%;
+    border: 2px solid;
+    border-color: rgb(194, 12, 12);
+    border-radius: 5px;
+}
+
+.title:focus{
+    outline: none;
+}
+
+.content {
+    height: 160px;
+    width: 75%;
+    border: 2px solid;
+    border-color: rgb(194, 12, 12);
+    border-radius: 5px;
+}
+
+.content:focus{
+    outline: none;
+}
+
+button {
+    background-color: rgb(194, 12, 12);
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.buttonsPlace {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+.sidebar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid;
+    border-color: rgb(194, 12, 12);
+    border-radius: 5px;
+    width: 50%;
+    height: 80%;
+    margin-left: 140px;
+}
+
+h4 {
+    margin-left: 5px;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+span {
+    margin-left: 10px;
+}
+
+
+span:hover {
+    cursor: pointer;
+}
